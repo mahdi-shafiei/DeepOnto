@@ -49,26 +49,6 @@ limitations under the License.
 </h3>
 
 
-**News** :newspaper:
-
-<!-- - [ ] Amend taxonomy features; integrate ICON into DeepOnto. (**unreleased**) -->
-- [X] Refinement to `deeponto.onto.normalisation` (**v0.9.3**).
-- [X] Refinement to `deeponto.onto.taxonomy`. (**v0.9.2**)
-- [X] Hot fix to the `openprompt` issue by moving it to optional dependencies. (**v0.9.1**)
-- [X] Minor feature enhancement; reorganise package layout. (**v0.8.9**)
-- [X] Deploy `deeponto.onto.taxonomy`; add the structural reasoner type. (**v0.8.8**)
-- [X] Deploy various new ontology processing functions especially for reasoning and verbalisation; update OAEI utitlities for evaluation. (**v0.8.7**)
-- [X] Minor modifications of certain methods and set all utility methods to direct import. (**v0.8.5**)
-- [X] Deploy OAEI utilities at `deeponto.align.oaei` for scripts at the sub-repository [OAEI-Bio-ML](https://github.com/KRR-Oxford/OAEI-Bio-ML) as well as bug fixing. (**v0.8.4**)
-- [X] Bug fixing for BERTMap (stuck at reasoning) and ontology alignment evaluation. (**v0.8.3**)
-- [X] Deploy `deeponto.onto.OntologyNormaliser` and `deeponto.onto.OntologyProjector` (**v0.8.0**).
-- [X] Upload Java dependencies directly and remove mowl from pip dependencies (**v0.7.5**).
-- [X] Deploy the `deeponto.subs.bertsubs` and `deeponto.onto.pruning` modules (**v0.7.0**).
-- [X] Deploy the `deeponto.probe.ontolama` and `deeponto.onto.verbalisation` modules (**v0.6.0**). 
-- [X] Rebuild the whole package based on the OWLAPI; remove owlready2 from the essential dependencies (from **v0.5.x**). 
-
-Check the complete [changelog](https://krr-oxford.github.io/DeepOnto/changelog/) and [FAQs](https://krr-oxford.github.io/DeepOnto/faqs/). The FAQs page does not contain much information now but will be updated according to feedback.
-
 ## About
 
 $\textsf{DeepOnto}$ aims to provide building blocks for implementing deep learning models, constructing resources, and conducting evaluation for various ontology engineering purposes.
@@ -76,6 +56,9 @@ $\textsf{DeepOnto}$ aims to provide building blocks for implementing deep learni
 - **Documentation**: *<https://krr-oxford.github.io/DeepOnto/>*.
 - **Github Repository**: *<https://github.com/KRR-Oxford/DeepOnto>*. 
 - **PyPI**: *<https://pypi.org/project/deeponto/>*. 
+
+
+Check the complete [changelog](https://krr-oxford.github.io/DeepOnto/changelog/) and [FAQs](https://krr-oxford.github.io/DeepOnto/faqs/). 
 
 
 ## Installation
